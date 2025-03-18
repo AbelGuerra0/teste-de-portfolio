@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciara: #ffe4c4;
+    --cor-vermelha:#ff0000;
+    --cor-azul: #00ffff;
+}
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+.cabecalho__menu__link{
+    padding: 1%;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.8rem;
+    color: #ffe4c4;
+}
+.Titulo-destaque{
+    color: #00ffff;
+}
+.te-roubei{
+    color: #ff0000;
+}
+.apresentacao{
+    padding:1% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-size:2.25rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family:"Quicksand", sans-serif;
+}
+.apresentacao__links__subtitulo{
+    font-family:"Quicksand", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.apresentacao__conteudo__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+.ajusteimg{
+    width: 50%;
+    border-radius: 28px;
+}
+.apresentacao__links__botao{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    text-align:center;
+    border: 2px solid aqua;
+    width: 370px;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 25px 0;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+.apresentacao__links__botao:hover{
+    background-color: rgb(153, 211, 196);
+}
+.rodape{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: rgb(14, 13, 12);
+    background-color: wheat;
+}
